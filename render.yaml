@@ -1,0 +1,8 @@
+services:
+  types: web
+  name: my-app-php
+  env: docker
+  dockerfileParth: ./DockerFile
+  plan: free #Esto puede cambiar
+  branch: main
+  autoDeploy: true
